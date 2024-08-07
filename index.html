@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/logo-site.ico" type="image/x-icon">
+    <title>Mobile First 01</title>
+</head>
+
+<body>
+    <!---------Versão Mobile---------->
+    <section class="versaoMobile">
+        <nav class="navMobile">
+            <div class="navTop">
+                <h3>Buscando algum serviço?</h3>
+                <input type="checkbox" id="sideBarAtiva">
+                <label for="sideBarAtiva" class="open-sidebar-button">
+                    <img src="./img/hamburguer.svg" alt="">
+                </label>
+                <label id="overlay" for="sideBarAtiva"></label>
+
+                <div class="links-container">
+                    <label for="sideBarAtiva" class="close-sidebar-button">
+                        <img src="./img/fechar.svg" alt="">
+                    </label>
+                    <a class="home-link" href="./index.html"><span class="material-symbols-outlined">
+                            home
+                        </span>Início</a>
+                    <a href="./sobre.html"><span class="material-symbols-outlined">
+                            description
+                        </span>Sobre</a>
+                    <a href="#"><span class="material-symbols-outlined">
+                            engineering
+                        </span>Serviços</a>
+                    <a href="#"><span class="material-symbols-outlined">
+                            diversity_3
+                        </span>Parceiros</a>
+                </div>
+            </div>
+            <div class="busca">
+                <input type="text" placeholder="Digite Aqui">
+            </div>
+        </nav>
+        <div class="heroSectionMobile">
+            <div class="card1">
+                <img src="./img/categoria-arcondicionado.png" alt="">
+                <p>Climatização</p>
+            </div>
+            <div class="card2">
+                <img src="./img/categoria-computador.png" alt="">
+                <p>Informática</p>
+            </div>
+            <div class="card3">
+                <img src="./img/categoria-maquina-lavar.png" alt="">
+                <p>Lavanderia</p>
+            </div>
+        </div>
+        <div class="conteudoMobile">
+            <div class="textoArea">
+                <h3 class="conteudoTexto">Governamental<span>ㅤ<i class="fa-solid fa-plus"></i></span></h3>
+            </div>
+            <div class="servicos">
+                <img class="servicosPoster" src="./img/poster-saude.png" alt="">
+                <img class="servicosPoster" src="./img/poster-social.png" alt="">
+            </div>
+            <div class="textoArea">
+                <h3 class="conteudoTexto">Agrícola<span>ㅤ<i class="fa-solid fa-arrow-right"></i></span></h3>
+            </div>
+            <div class="cards card1">
+                <img class="card-img" src="./img/card-maquinario.png" alt="">
+                <div class="text">
+                    <p>Compra de </p>
+                    <h3>Maquinário </h3>
+                    <img class="redeSocial" src="./img/whatsapp-branco.svg" alt="logo whatsapp">
+
+                </div>
+            </div>
+            <div class="cards card2">
+                <img class="card-img" src="./img/card-drone.png" alt="">
+                <div class="text">
+                    <p>Serviços de </p>
+                    <h3>Drones Rurais</h3>
+                    <img class="redeSocial" src="./img/whatsapp-branco.svg" alt="logo do whatsapp">
+                </div>
+            </div>
+            <div class="cards card3">
+                <img class="card-img" src="./img/card-animais.png" alt="">
+                <div class="text">
+                    <p>Compra de </p>
+                    <h3>Animais</h3>
+                    <img class="redeSocial" src="./img/whatsapp-branco.svg" alt="logo do whatsapp">
+                </div>
+            </div>
+        </div>
+        <footer class="footerMobile">
+            <div class="contato">
+                <h2 class="contatoTitulo">Alguma dúvida?</h2>
+                <p class="contatoTexto">Entre em contato conosco e tire suas dúvidas</p>
+            </div>
+            <input class="contatoEmail" type="email" placeholder="Envie suas dúvidas aqui">
+            <div class="botaoEnviar">
+                <p><i class="fa-regular fa-paper-plane"></i> Enviar</p>
+            </div>
+        </footer>
+    </section>
+
+    <!------Versão Desktop--------->
+    <section class="versaoDesktop">
+        <nav class="navDesktop">
+            <header>
+                <div class="logo">MINUS</div>
+                <nav class="navDesktopItem">
+                    <ul class="navLista">
+                        <li><a href="./sobre.html"><span class="material-symbols-outlined">
+                            description
+                        </span> Sobre</a></li>
+                        <li><a href="./About.html"><span class="material-symbols-outlined">
+                            engineering
+                        </span> Serviços</a></li>
+                        <li><a href="./index.html"><span class="material-symbols-outlined">
+                            home
+                        </span> Inicio</a></li>
+                    </ul>
+                </nav>
+                <button class="login-btn">Login</button>
+            </header>
+        </nav>
+        <div class="heroSectionDesktop">
+            <section class="hero">
+                <div class="heroText">
+                    <h1>Serviços Essenciais para o Campo</h1>
+                    <p>Nesse site, você encontra todos os serviços essenciais para quem trabalha no campo, tudo reunido
+                        em um só lugar, venhar ser nosso parceiro!</p>
+                    <form class="heroAction">
+                        <input class="heroInput" type="email" placeholder="Seu email">
+                        <button class="heroBtn" type="submit">Participe</button>
+                    </form>
+                </div>
+                <div class="heroImage">
+                    <img class="heroImg" width="100%" height="100%" src="./img/heroSection.png"
+                        alt="Menina feliz com uma felicidade contagiante">
+                </div>
+            </section>
+        </div>
+        <div class="conteudoDesktop">
+            <section class="featured">
+                <h2 class="cabecalho"> Serviços Emergênciais</h2>
+                <div class="emergenciasGrid">
+                    <div class="alerta">
+                        <img src="./img/1.png"
+                            alt="Imagem Ilustrativa de um Queimada - Alerta">
+                        <p>Alerta de Quimada</p>
+                    </div>
+                    <div class="alerta">
+                        <img src="./img/2.png"
+                            alt="Imagem Ilustrativa de Alerta Meterólogico">
+                        <p>Alerta Meterólogico</p>
+                    </div>
+                    <div class="alerta">
+                        <img src="./img/3.png"
+                            alt="Imagem Ilustrativa Alerta Hospitalar">
+                        <p>Alerta Hospitalar</p>
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="linha">
+                    <div class="cabecalho">
+                        <h2>Alguns de Nossos Destaques</h2>
+                    </div>
+                </div>
+                <div class="linha">
+                    <!-- Card 1 -->
+                    <div class="coluna">
+                        <div class="card">
+                            <div class="icone">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <h3>Auxílio e Suporte</h3>
+                            <p>Assistência especializada para resolver problemas e fornecer suporte técnico.</p>
+                        </div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="coluna">
+                        <div class="card">
+                            <div class="icone">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <h3>Suas compras</h3>
+                            <p>Uma experiência de compra conveniente e segura, com uma ampla variedade de serviços.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="coluna">
+                        <div class="card">
+                            <div class="icone">
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <h3>Feedbacks</h3>
+                            <p>Valorizamos a opinião dos nossos clientes para melhorar continuamente nossos serviços.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="coluna">
+                        <div class="card">
+                            <div class="icone">
+                                <i class="fa-solid fa-people-group"></i>
+                            </div>
+                            <h3>Parcerias e Conexões</h3>
+                            <p>Colaborações estratégicas para ampliar nossas soluções e ofertas, promovendo um crescimento.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                <!-- Seção de detalhes -->
+                <section class="details">
+                    <div class="detalhesConteudo">
+                        <h2>Detalhes</h2>
+                        <p>Estamos comprometidos em oferecer uma ampla gama de serviços de qualidade para atender às suas necessidades. Explore o que temos a oferecer:</p>
+                    </div>
+                </section>
+
+                <!-- Grid de Serviços -->
+                <section class="servicosGrid">
+                    <div class="servicosItem item1">
+                        <h3>Saúde</h3>
+                        <p>Serviços de saúde disponíveis para você e sua família.</p>
+                        <button class="actionBtn btn1">Saiba mais</button>
+                    </div>
+                    <div class="servicosItem item2">
+                        <h3>Saneamento</h3>
+                        <p>Garantia de serviços de saneamento básico e infraestrutura.</p>
+                        <button class="actionBtn btn2">Saiba mais</button>
+                    </div>
+                    <div class="servicosItem item3">
+                        <h3>Eletricidade</h3>
+                        <p>Serviços de eletricidade eficientes e confiáveis.</p>
+                        <button class="actionBtn btn3">Saiba mais</button>
+                    </div>
+                    <div class="servicosItem item4">
+                        <h3>Farmácias</h3>
+                        <p>Encontre farmácias próximas e serviços relacionados.</p>
+                        <button class="actionBtn btn4">Saiba mais</button>
+                    </div>
+                    <div class="servicosItem item5">
+                        <h3>Instituições de Ensino</h3>
+                        <p>Informações sobre instituições de ensino na sua área.</p>
+                        <button class="actionBtn btn5">Saiba mais</button>
+                    </div>
+                    <div class="servicosItem item6">
+                        <h3>Bancos</h3>
+                        <p>Serviços bancários disponíveis para atender suas necessidades.</p>
+                        <button class="actionBtn btn6">Saiba mais</button>
+                    </div>
+                </section>
+            </main>
+
+        </div>
+        <div class="footerDesktop">
+            <footer class="footer">
+                <div class="footerConteudo">
+                    <div class="footerSection">
+                        <h3>Sobre Nós</h3>
+                        <p>Agrinho 2024. Nós prezamos pela experiência do usuário e é nosso dever passar a informação, más se não conseguiu encontrar o que procura ou quer tirar alguma dúvida temos locais de contato, Atenciosamente!</p>
+                    </div>
+                    <div class="footerSection">
+                        <h3>Navegue</h3>
+                        <ul>
+                            <li><a href="./index.html">Início</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="./sobre.css">Sobre</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerSection">
+                        <h3>Contato</h3>
+                        <p>Email: taua.amaro@escola.pr.gov.br</p>
+                        <p>Telefone: (44) 99889-9322</p>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+
+</html>

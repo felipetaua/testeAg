@@ -1,0 +1,46 @@
+.footerMobile{
+    padding: 30px 10px;
+    margin-top: 20px;       
+    background: #B796FF;
+    color: var(--cinza-claro);       
+    text-align: center;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+}
+
+.footerMobile .contatoTitulo{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footerMobile .contatoTexto{
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.footerMobile .contatoEmail{
+    padding: 1em;    
+    margin-bottom: 20px;
+    border: 1px solid rgb(97, 87, 97);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--preto);
+    
+}
+
+.footerMobile .contatoEmail::placeholder{ 
+    padding: 0.3em;       
+    background: url("./img/email.svg") no-repeat;
+    padding-left: 2.5em;
+}
+
+.footerMobile .botaoEnviar{
+    margin: 0 auto;
+    background: #fff;
+    color: #B796FF;
+    padding: 5px;    
+    width: 30%;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+}

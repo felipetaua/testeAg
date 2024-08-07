@@ -1,0 +1,44 @@
+@import url(../../style.css);
+
+
+.versaoMobile{
+height: 100vh;
+display:grid;
+grid-template-columns: 1fr;
+grid-template-rows: 115px 1fr 1fr 1fr;
+grid-template-areas: 
+"nav"
+"heroSection"
+"conteudo"
+"footer"
+;
+}
+
+.navMobile{
+    grid-area: nav;
+    background: #B796FF;
+    border-radius: 0px 0px 20px 20px;
+    /* border: 1px solid red; */
+    font-weight: 100;
+}
+
+.heroSectionMobile{
+    grid-area: heroSection;
+    /* border: 1px solid red; */
+}
+
+.conteudoMobile{
+    grid-area: conteudo;
+    /* border: 1px solid red; */
+}
+
+.footerMobile{
+    grid-area: footer;
+    /* border: 1px solid red; */
+}
+
+@media (max-width:768px) {
+    .versaoDesktop {
+        display: none;
+    }
+}

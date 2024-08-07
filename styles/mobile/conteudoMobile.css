@@ -1,0 +1,107 @@
+@import url(../../style.css);
+
+.conteudoMobile .servicos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.conteudoMobile .servicos img{
+    width: 175px;
+    object-fit: fill;
+}
+
+.conteudoMobile .cards{
+    margin: auto; 
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;   
+    width: 85%;
+    border-radius: 20px;    
+    color: #EBF3F5;    
+    display: flex;    
+    justify-content: space-around;
+}
+
+.card1 {
+  background-color: #97db97;
+}
+
+.card2 {
+  background-color: #e67575;
+}
+
+.card3 {
+  background-color: #d9a0cd;
+}
+
+.conteudoMobile .card1 h3 {
+    color: var(--verde-maquinario);
+}
+
+.conteudoMobile .card2{
+    color: #EBF3F5;
+}
+
+.conteudoMobile .card2 h3 {
+    color: var(--vermelho-drone);
+}
+
+.conteudoMobile .card3 h3 {
+    color: var(--rosa-animais);
+}
+
+.textoArea {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: var(--roxo);
+    color: #fff;
+    border-radius: 16px;
+    width: 280px;
+    height: 45px;
+}
+
+.conteudoMobile .cards .text{
+    font-size: 20px;
+    margin-top: 20px;    
+}
+
+.conteudoTexto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.servicosPoster {
+  max-height: 210px;
+  margin: 10px 10px;
+  padding: 10px;
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+.conteudoTexto span {
+    color: #fff;
+}
+
+.card-img {
+  width: 125px; 
+  height: 120px;
+}
+
+
+.conteudoMobile .cards img{
+    margin-right: 10px;
+}
+
+.conteudoMobile .cards .redeSocial{
+    width: 35px; 
+    height: 35px;
+    margin-right: 10px;
+}
+
+.conteudoMobile .cards .text img{
+    margin-left: 70%;
+}
