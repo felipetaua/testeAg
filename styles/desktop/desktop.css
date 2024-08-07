@@ -1,0 +1,40 @@
+@import url(../../style.css);
+
+@media (min-width:768px){
+    .versaoMobile{
+        display: none;
+    }
+
+    .versaoDesktop{
+        height: 100vh;        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 109px 1fr 1fr 1fr;
+        grid-template-areas: 
+        "nav"
+        "heroSection"
+        "conteudo"
+        "footer"
+        ;
+    }
+
+    .navDesktop{
+        grid-area: nav;
+        /*border: 1px solid red;*/
+    }
+
+    .heroSectionDesktop{
+        grid-area: heroSection;
+        /*border: 1px solid red;*/
+    }
+
+    .conteudoDesktop{
+        grid-area: conteudo;
+        /* border: 1px solid red; */
+    }
+
+    .footerDesktop{
+        grid-area: footer;
+        /* border: 1px solid red; */
+    }
+}

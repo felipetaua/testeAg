@@ -1,0 +1,102 @@
+@import url(../../style.css);
+
+.hero {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 40px;
+    background-color: var(--roxo);
+    margin: 0 15px 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 0px 0px 18px 18px;
+    
+}
+
+.heroText {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: var(--amarelo);
+}
+
+.heroText p {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.heroImg {
+    max-width: 1250px;
+    height: 350px;
+}
+
+.hero .heroAction {
+    width: 380px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 90px;
+}
+
+.heroAction {
+    z-index: 99;
+}
+
+.hero .heroInput {
+    border: none;
+}
+
+.hero .heroBtn {
+    background-color: var(--amarelo);
+    color: white;
+    font-size: 10ox;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    border: none;
+    height: 80%;
+    width: 25%;
+    margin: 5px 15px 5px 20px;
+    border-radius: 18px;
+    padding: 0;
+    transition: .2s ease-in;
+}
+
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.heroBtn:hover {
+    background-color: var(--laranja);
+}
+
+@media (min-width: 1090px) {
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 2290px) {
+    .heroImg {
+        width: 520px;
+        height: 520px;
+        padding: 20px;
+    }
+}
+/* atualizar a imagem */

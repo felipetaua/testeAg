@@ -1,0 +1,82 @@
+@import url(../../style.css);
+
+.footer {
+    background-color: var(--roxo);
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 18px;
+    margin: 15px 15px 15px 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.433);
+}
+
+.footerConteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footerSection {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+}
+
+.footerSection h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footerSection p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footerSection ul {
+    list-style: none;
+    padding: 0;
+    letter-spacing: .2rem;
+}
+
+.footerSection ul li {
+    margin-bottom: 10px;
+}
+
+.footerSection ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footerSection ul li a:hover {
+    color: #0c0d0c;
+}
+
+footer .footerSection p {
+    font-size: 16px;
+}
+
+footer .footerSection p a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+
+.footerSection  a i{
+    text-decoration: none;
+    color: white;
+}
+
+footer .footerSection p a:hover {
+    color: #0c0d0c;
+}
+

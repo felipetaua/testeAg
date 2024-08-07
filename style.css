@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(./styles/mobile/mobile.css);
+@import url(./styles/mobile/navMobile.css);
+@import url(./styles/mobile/heroSectionMobile.css);
+@import url(./styles/mobile/conteudoMobile.css);
+@import url(./styles/mobile/footerMobile.css);
+@import url(./styles/mobile/sobreConteudoMobile.css);
+
+@import url(./styles/desktop/desktop.css);
+@import url(./styles/desktop/navDesktop.css);
+@import url(./styles/desktop/heroSectionDesktop.css);
+@import url(./styles/desktop/conteudoDesktop.css);
+@import url(./styles/desktop/footerDesktop.css);
+@import url(./styles/desktop/mediaQueryDesktop.css);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --branco:#dfe6ec;
+    --preto:#161515;
+    --roxo: #B796FF;
+    --cinza-claro:#EBF3F5;
+    --violeta-escuro:#8343a1;
+    --verde-maquinario: #69ca3f;
+    --vermelho-drone: #c55757;
+    --rosa-animais: #b67eb3;
+    
+    --vermelho:#e67575;
+    --azul-claro:#5e8ee0;
+    --azul-escuro:#265ebf;
+    --amarelo: #fbd118;
+    --verde: #4CAF50;
+    --laranja: #f9a81b;
+}

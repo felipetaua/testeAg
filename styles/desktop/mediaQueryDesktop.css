@@ -1,0 +1,49 @@
+@import url(../../style.css);
+
+@media (max-width: 767px) {
+    .hero {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .hero-text {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .featured .emergenciasGrid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linha {
+        flex-direction: column;
+    }
+
+    .servicosGrid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .login-btn {
+        margin-top: 10px;
+    }
+}

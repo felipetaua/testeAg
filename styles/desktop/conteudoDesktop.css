@@ -1,0 +1,203 @@
+@import url(../../style.css);
+
+.featured {
+    margin: 40px;
+}
+
+.featured .emergenciasGrid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.featured h2 {
+    text-align: center;
+}
+
+.alerta img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 18px;
+}
+
+.alerta p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.services {
+    padding: 40px 20px;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: var(--roxo);
+    color: #fff;
+    border-radius: 16px;
+    width: 280px;
+    height: 45px;
+    border: 8px solid var(--roxo);
+    margin-bottom: 15px;
+}
+
+.card {
+    border: 1px solid #0000;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 2em 1.5em;
+    background: linear-gradient(#FFF 50%, var(--roxo) 50%);
+    background-size: 100% 200%;
+    background-position: 0 2.55;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card:hover {
+    background-position: 0 100%;
+}
+
+.card:hover .icone {
+    background-color: #FFF;
+    color: var(--roxo);
+}
+
+.card:hover h3 {
+    color: #FFF;
+}
+
+.card:hover p {
+    color: #f0f0f0;
+}
+
+.icone {
+    background-color: var(--roxo);
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    height: 2.5em;
+    width: 2.5em;
+    color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+
+.details {
+    background-color: var(--roxo);
+    margin: 10px;
+    padding: 40px 60px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.detalhesConteudo h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.detalhesConteudo p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin: 35px;
+}
+
+/* Grid de Serviços */
+
+.servicosGrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.servicosItem {
+    border: 1px solid #ddd;
+    border-radius: 18px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.servicosItem h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.servicosItem p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.actionBtn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.item1 h3{
+  color: var(--vermelho);
+}
+
+.item2 h3{
+  color: var(--azul-claro);
+}
+
+.item3 h3{
+  color: var(--amarelo);
+}
+
+.item4 h3{
+  color: var(--verde);
+}
+
+.item5 h3{
+  color: var(--laranja);
+}
+
+.item6 h3{
+  color: var(--azul-escuro);
+}
+
+.btn1 {
+  background-color:  var(--vermelho);
+}
+
+.btn2 {
+  background-color: var(--azul-claro);
+}
+
+.btn3 {
+  background-color:  var(--amarelo);
+}
+
+.btn4 {
+  background-color:  var(--verde);
+}
+
+.btn5 {
+  background-color: var(--laranja);
+}
+
+.btn6 {
+  background-color: var(--azul-escuro);
+}

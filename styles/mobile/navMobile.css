@@ -1,0 +1,103 @@
+@import url(../../style.css);
+
+.navMobile .navTop{
+    display: flex;
+    width: 100%;
+    margin-top: 5px;    
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-weight:100;   
+}
+
+.navMobile .busca{
+    margin: 8px 15px;    
+    text-align: center;
+}
+.navMobile .busca input{
+    width: 90%;        
+    padding: 8px;
+    border-radius: 10px;
+    border: none;    
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.navMobile .busca input::placeholder{
+    padding: 0.3em;
+    background: url("./img/busca.svg") no-repeat; 
+    padding-left: 2.5em;
+}
+
+.open-sidebar-button img{ 
+    margin-left: 20px;
+}   
+
+.open-sidebar-button, .close-sidebar-button{
+    display: block;
+    margin-left: 10px;
+    font-size: large;
+}
+
+.links-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    width: 200px;
+    height: 100%;
+    background-color: #B796FF;        
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25); 
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.6s ease-out;   
+}
+
+.links-container .material-symbols-outlined{
+    margin-right: 15px;     
+}
+
+nav a{    
+    box-sizing: border-box;    
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;    
+    text-decoration: none;
+    margin: 5px;    
+}
+
+
+#sideBarAtiva{  
+    display: none;
+}
+
+#sideBarAtiva:checked ~ .links-container{
+    right: 0;
+ }
+ #sideBarAtiva:checked ~ #overlay{        
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+ }
+
+ nav a:active{
+    width: 100%;    
+    background: var(--cinza-claro);
+    color: #65657E;
+    border-radius: 30px;
+}
+
+
+   
+
+   

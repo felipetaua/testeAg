@@ -1,0 +1,52 @@
+@import url(../../style.css);
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--roxo);
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 15px 15px 0px 15px;
+    /* border-top-right-radius: 18px ; */
+    border-radius: 18px 18px 0 0px;
+
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.navDesktopItem .navLista {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navDesktopItem li {
+    margin-left: 20px;
+}
+
+.navDesktopItem a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    transition: .5s ease-in;
+}
+
+.login-btn {
+    background-color: #fafdfb;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.navDesktopItem a:hover {
+    color: white;
+}

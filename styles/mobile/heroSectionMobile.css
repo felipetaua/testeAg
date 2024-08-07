@@ -1,0 +1,83 @@
+@import url(../../style.css);
+
+.heroSectionMobile{
+    display: flex;   
+    justify-content: space-around; 
+
+}
+
+.heroSectionMobile .card1{
+    background: var(--cinza-claro);
+    border-radius: 20px;
+    width: 33%;
+    margin: 5px;
+    display: flex;    
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    color: var(--roxo);
+}
+
+.heroSectionMobile .card1 p {
+    padding: 10px;
+}
+
+.heroSectionMobile .card1 img{
+    width: 70px;   
+    height: 80px; 
+    object-fit: fill;
+    margin: 0 auto;
+    
+}
+
+.heroSectionMobile .card2{    
+    width: 33%;
+    background: var(--cinza-claro);
+    border-radius: 20px;
+    width: 33%;
+    margin: 5px;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    color: var(--roxo);
+}
+
+.heroSectionMobile .card2 p{
+    margin-top: 4px;
+}
+
+.heroSectionMobile .card2 img{
+    width: 70px;   
+    height: 70px; 
+    object-fit: fill;
+    margin: 0 auto;
+}
+
+.heroSectionMobile .card3{  
+    width: 33%;
+    width: 33%;
+    background: var(--cinza-claro);
+    border-radius: 20px;
+    width: 33%;
+    margin: 5px;
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    color: var(--roxo);
+}
+
+.heroSectionMobile .card3 img{
+    width: 70px;   
+    height: 70px; 
+    object-fit: fill;
+    margin: 0 auto;   
+}
+
+.heroSectionMobile .card3 p{
+    margin-top: 5px;
+}

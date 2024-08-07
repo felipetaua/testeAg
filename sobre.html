@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/logo-site.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+        <!---------Versão Mobile---------->
+    <section class="versaoMobile">
+            <nav class="navMobile">
+                <div class="navTop">
+                    <h3>Buscando algum serviço?</h3>
+                    <input type="checkbox" id="sideBarAtiva">
+                    <label for="sideBarAtiva" class="open-sidebar-button">
+                        <img src="./img/hamburguer.svg" alt="">
+                    </label>
+                    <label id="overlay" for="sideBarAtiva"></label>
+    
+                    <div class="links-container">
+                        <label for="sideBarAtiva" class="close-sidebar-button">
+                            <img src="./img/fechar.svg" alt="">
+                        </label>
+                        <a class="home-link" href="./index.html"><span class="material-symbols-outlined">
+                                home
+                            </span>Início</a>
+                        <a href="./sobre.html"><span class="material-symbols-outlined">
+                                description
+                            </span>Sobre</a>
+                        <a href="./About.html"><span class="material-symbols-outlined">
+                                engineering
+                            </span>Serviços</a>
+                        <a href="#"><span class="material-symbols-outlined">
+                                diversity_3
+                            </span>Parceiros</a>
+                    </div>
+                </div>
+                <div class="busca">
+                    <input type="text" placeholder="Digite Aqui">
+                </div>
+            </nav>
+            <div class="heroSectionMobile">
+            </div>
+            <div class="conteudoMobile">
+                <section class="about">
+                    <div class="container">
+                        <div class="aboutSection">
+                            <h2>Criador</h2>
+                            <div class="aboutMeu">
+                                <img src="./img/taua.jpg" alt="">
+                            </div> 
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra. Maecenas quis dui non purus faucibus tristique. Donec id arcu ac tortor gravida suscipit.</p>
+                        </div>
+                        <div class="aboutSection">
+                            <h2>Sobre o Projeto</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra. Maecenas quis dui non purus faucibus tristique. Donec id arcu ac tortor gravida suscipit.</p>
+                        </div>
+                        <div class="aboutSection">
+                            <h2>Como Surgiu a ideia</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra. Maecenas quis dui non purus faucibus tristique. Donec id arcu ac tortor gravida suscipit.</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="socialProof">
+                    <div class="testimonials">
+                        <h2>Prova Social</h2>
+                        <div class="testimonial">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra.</p>
+                            <div class="author">
+                                <img width="50px" height="50px" src="./img/demetrio.jpg" alt="Client Photo">
+                                <div class="author-info">
+                                    <h4>Demétrio Torgan</h4>
+                                    <p>Professor de Programação</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra.</p>
+                            <div class="author">
+                                <img src="https://via.placeholder.com/50" alt="Client Photo">
+                                <div class="author-info">
+                                    <h4>João Santos</h4>
+                                    <p>CTO, Empresa Y</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial">
+                            <i class="fa-solid fa-quote-left"></i>
+                            <p>
+                                De fato uma aplicação essencial para pessoas do campo que muitas vezes não conhecem muitos serviços devido a falta de comunicação entre cidade e campo.
+                            </p>
+                            <div class="author">
+                                <img width="50px" height="50px" src="./img/nicoly.jpg" alt="Client Photo">
+                                <div class="author-info">
+                                    <h4>Nicoly Carvalho</h4>
+                                    <p>Fotógrafa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="statistics">
+                        <div class="statistic">
+                            <i class="fa-solid fa-users"></i>
+                            <h3>Futuros usuários+</h3>
+                            <p>Usuários Satisfeitos</p>
+                        </div>
+                        <div class="statistic">
+                            <i class="fa-solid fa-project-diagram"></i>
+                            <h3>250+</h3>
+                            <p>Projetos Concluídos</p>
+                        </div>
+                        <div class="statistic">
+                            <i class="fa-solid fa-trophy"></i>
+                            <h3>Futuros</h3>
+                            <p>Feedbacks a Receber</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer class="footerMobile">
+                <div class="contato">
+                    <h2 class="contatoTitulo">Alguma dúvida?</h2>
+                    <p class="contatoTexto">Entre em contato conosco e tire suas dúvidas</p>
+                </div>
+                <input class="contatoEmail" type="email" placeholder="Envie suas dúvidas aqui">
+                <div class="botaoEnviar">
+                    <p><i class="fa-regular fa-paper-plane"></i> Enviar</p>
+                </div>
+            </footer>
+    </section>
+            <!------Versão Desktop--------->
+    <section class="versaoDesktop">
+        <nav class="navDesktop">
+            <header>
+                <div class="logo">MINUS</div>
+                <nav class="navDesktopItem">
+                    <ul class="navLista">
+                        <li><a href="./sobre.html"><span class="material-symbols-outlined">
+                            description
+                        </span> Sobre</a></li>
+                        <li><a href="#"><span class="material-symbols-outlined">
+                            engineering
+                        </span> Serviços</a></li>
+                        <li><a href="./index.html"><span class="material-symbols-outlined">
+                            home
+                        </span> Inicio</a></li>
+                    </ul>
+                </nav>
+                <button class="login-btn">Login</button>
+            </header>
+        </nav>
+        <div class="heroSectionDesktop">
+            <section class="hero">
+                <div class="heroText">
+                    <h1>Serviços Essenciais para o Campo</h1>
+                    <p>Nesse site, você encontra todos os serviços essenciais para quem trabalha no campo, tudo reunido
+                        em um só lugar, venhar ser nosso parceiro!</p>
+                    <form class="heroAction">
+                        <input class="heroInput" type="email" placeholder="Seu email">
+                        <button class="heroBtn" type="submit">Participe</button>
+                    </form>
+                </div>
+                <div class="heroImage">
+                    <img class="heroImg" width="100%" height="100%" src="./img/heroSection.png"
+                        alt="Menina feliz com uma felicidade contagiante">
+                </div>
+            </section>
+        </div>
+        <div class="conteudoDesktop">
+            <section class="about">
+                <div class="container">
+                    <div class="aboutSection">
+                        <h2>Criador</h2>
+                        <div class="aboutMeu">
+                            <img src="./img/taua.jpg" alt="Criador do site">
+                        </div>
+                        <p>Olá tudo bem! meu nome é Tauã Felipe, gosto de Desenhar, programar e adoro muito técnologia sendo uma área que sou encantado, onde faço cursos por fora para aprender a programar, muitas vezes me arrisco em aprender design, adoro me desafiar sou criativo e calmo, me orgulho muito das minhas coisas mesmo não tendo um computador sempre me virei com celular. </p>
+                    </div>
+                    <div class="aboutSection">
+                        <h2>Sobre o Projeto</h2>
+                        <p>A ideia é centralizar serviços do campo em um unico lugar com objetivo de ajudar pessoas do campo que não consegue encontrar determinados serviços além de divulgações de campanhas que não são muito divulgadas, criando conexões entre a cidade e o campo gerando crescimento de ambas as partes, </p>
+                    </div>
+                    <div class="aboutSection">
+                        <h2>Como Surgiu a Ideia</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra. Maecenas quis dui non purus faucibus tristique. Donec id arcu ac tortor gravida suscipit.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="socialProof">
+                <div class="testimonials">
+                    <h2>Prova Social</h2>
+                    <div class="testimonial">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra.</p>
+                        <div class="author">
+                            <img width="50px" height="50px" src="./img/demetrio.jpg" alt="A">
+                            <div class="author-info">
+                                <h4>Demétrio Torgan</h4>
+                                <p>Professor de Programação</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis dolor ut erat luctus, ac vehicula magna pharetra.</p>
+                        <div class="author">
+                            <img width="50px" height="50px" src="./img/ana.jpg" alt="">
+                            <div class="author-info">
+                                <h4>Ana Julia</h4>
+                                <p>Artista</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>
+                            De fato uma aplicação essencial para pessoas do campo que muitas vezes não conhecem muitos serviços devido a falta de comunicação entre cidade e campo.
+                        </p>
+                        <div class="author">
+                            <img width="50px" height="50px" src="./img/nicoly.jpg" alt="Client Photo">
+                            <div class="author-info">
+                                <h4>Nicoly Carvalho</h4>
+                                <p>Fotógrafa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="statistics">
+                    <div class="statistic">
+                        <i class="fa-solid fa-users"></i>
+                        <h3>Futuros usuários+</h3>
+                        <p>Usuários Satisfeitos</p>
+                    </div>
+                    <div class="statistic">
+                        <i class="fa-solid fa-project-diagram"></i>
+                        <h3>250+</h3>
+                        <p>Projetos Concluídos</p>
+                    </div>
+                    <div class="statistic">
+                        <i class="fa-solid fa-trophy"></i>
+                        <h3>Futuros</h3>
+                        <p>Feedbacks a Receber</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="footerDesktop">
+            <footer class="footer">
+                <div class="footerConteudo">
+                    <div class="footerSection">
+                        <h3>Sobre Nós</h3>
+                        <p>Agrinho 2024. Nós prezamos pela experiência do usuário e é nosso dever passar a informação, más se não conseguiu encontrar o que procura ou quer tirar alguma dúvida temos locais de contato, Atenciosamente!</p>
+                    </div>
+                    <div class="footerSection">
+                        <h3>Navegue</h3>
+                        <ul>
+                            <li><a href="./index.html">Início</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="./sobre.css">Sobre</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerSection">
+                        <h3>Contato</h3>
+                        <p>Email: taua.amaro@escola.pr.gov.br</p>
+                        <p>Telefone: (44) 99889-9322</p>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </section>
+</body>
+</html>
